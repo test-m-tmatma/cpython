@@ -16,6 +16,8 @@ on:
     paths:
     - 'Tools/msi/**'
     - '.github/workflows/build_msi.yml'
+  schedule:
+    - cron: '35 * * * *'
 
 permissions:
   contents: read
